@@ -1,0 +1,8 @@
+config/policy.json
+state/
+logs/
+output/
+*.clixml
+*.tmp
+.DS_Store
+.vscode/

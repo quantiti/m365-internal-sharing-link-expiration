@@ -1,0 +1,18 @@
+{
+  "Tenant": {
+    "AdminUrl": "https://contoso-admin.sharepoint.com"
+  },
+  "GroupPolicy": {
+    "GroupId": "00000000-0000-0000-0000-000000000000",
+    "RecommendedDays": 30,
+    "MaxDays": 180,
+    "IncludeDisabledUsers": true
+  },
+  "State": {
+    "Backend": "File",
+    "FilePath": "./state/group-policy-state.json"
+  },
+  "Logging": {
+    "Directory": "./logs"
+  }
+}
